@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">wiatrak</string>
+    <string name="title_activity_add_lesson" />
+    <string-array name="hours_array">
+        <!-- Populate the array with the hours you want to display -->
+        <item>7</item>
+        <item>8</item>
+        <!-- ... more items -->
+    </string-array>
+</resources>

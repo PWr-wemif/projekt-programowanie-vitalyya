@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pairs_time_array">
+        <item>7:30 - 9:00</item>
+        <item>9:15 - 11:00</item>
+        <item>11:15 - 13:00</item>
+        <item>13:15 - 15:00</item>
+        <item>15:15 - 17:00</item>
+        <item>17:05 - 18:45</item>
+        <item>18:55 - 20:35</item>
+    </string-array>
+</resources>
