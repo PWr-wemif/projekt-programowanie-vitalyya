@@ -1,6 +1,0 @@
-C:/src/vcpkg/packages/dlfcn-win32_x64-windows/lib/dl.lib
-C:/src/vcpkg/packages/dlfcn-win32_x64-windows/bin/dl.dll
-C:/src/vcpkg/packages/dlfcn-win32_x64-windows/include/dlfcn.h
-C:/src/vcpkg/packages/dlfcn-win32_x64-windows/share/dlfcn-win32/dlfcn-win32-targets.cmake
-C:/src/vcpkg/packages/dlfcn-win32_x64-windows/share/dlfcn-win32/dlfcn-win32-targets-release.cmake
-C:/src/vcpkg/packages/dlfcn-win32_x64-windows/share/dlfcn-win32/dlfcn-win32-config.cmake
