@@ -1,0 +1,9 @@
+-- Downloading https://github.com/dlfcn-win32/dlfcn-win32/archive/v1.3.1.tar.gz -> dlfcn-win32-dlfcn-win32-v1.3.1.tar.gz...
+-- Extracting source C:/src/vcpkg/downloads/dlfcn-win32-dlfcn-win32-v1.3.1.tar.gz
+-- Using source at C:/src/vcpkg/buildtrees/dlfcn-win32/src/v1.3.1-21579ce6a7.clean
+-- Found external ninja('1.11.0').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/src/vcpkg/packages/dlfcn-win32_x64-windows/share/dlfcn-win32/copyright
+-- Performing post-build validation

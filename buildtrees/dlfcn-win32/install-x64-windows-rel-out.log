@@ -1,0 +1,11 @@
+[1/3] C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe   -DDLFCN_WIN32_SHARED  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /MD /O2 /Oi /Gy /DNDEBUG /Z7  /W4 /showIncludes /Fosrc\CMakeFiles\dl.dir\dlfcn.c.obj /Fdsrc\CMakeFiles\dl.dir\ /FS -c C:\src\vcpkg\buildtrees\dlfcn-win32\src\v1.3.1-21579ce6a7.clean\src\dlfcn.c
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[2/3] cmd.exe /C "cd . && C:\src\vcpkg\downloads\tools\cmake-3.25.1-windows\cmake-3.25.1-windows-i386\bin\cmake.exe -E vs_link_dll --intdir=src\CMakeFiles\dl.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\link.exe  src\CMakeFiles\dl.dir\dlfcn.c.obj  /out:bin\dl.dll /implib:lib\dl.lib /pdb:bin\dl.pdb /dll /version:0.0 /machine:x64 /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib ol-- Install configuration: "Release"
+-- Installing: C:/src/vcpkg/packages/dlfcn-win32_x64-windows/lib/dl.lib
+-- Installing: C:/src/vcpkg/packages/dlfcn-win32_x64-windows/bin/dl.dll
+-- Installing: C:/src/vcpkg/packages/dlfcn-win32_x64-windows/include/dlfcn.h
+-- Installing: C:/src/vcpkg/packages/dlfcn-win32_x64-windows/share/dlfcn-win32/dlfcn-win32-targets.cmake
+-- Installing: C:/src/vcpkg/packages/dlfcn-win32_x64-windows/share/dlfcn-win32/dlfcn-win32-targets-release.cmake
+-- Installing: C:/src/vcpkg/packages/dlfcn-win32_x64-windows/share/dlfcn-win32/dlfcn-win32-config.cmake
+eaut32.lib uuid.lib comdlg32.lib advapi32.lib  && cd ."
+[2/3] cmd.exe /C "cd /D C:\src\vcpkg\buildtrees\dlfcn-win32\x64-windows-rel && C:\src\vcpkg\downloads\tools\cmake-3.25.1-windows\cmake-3.25.1-windows-i386\bin\cmake.exe -P cmake_install.cmake"

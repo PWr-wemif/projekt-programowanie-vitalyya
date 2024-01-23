@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-mergeDebugResources-46:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-main-49:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-mergeDebugResources-46:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-main-49:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-mergeDebugResources-46:\\layout\\content_sam_plan.xml",
+        "source": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-main-49:\\layout\\content_sam_plan.xml"
+    },
+    {
+        "merged": "com.example.myapplication2.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.example.myapplication2.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-mergeDebugResources-46:\\layout\\activity_sam_plan.xml",
+        "source": "C:\\Users\\vetal\\.gradle\\daemon\\8.0\\com.example.myapplication2.app-main-49:\\layout\\activity_sam_plan.xml"
+    }
+]

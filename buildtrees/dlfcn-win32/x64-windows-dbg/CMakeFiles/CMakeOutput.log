@@ -1,0 +1,26 @@
+The target system is: Windows - 10.0.22621 - AMD64
+The host system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64/cl.exe 
+Build flags: ;/nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/MP;
+Id flags:  
+
+The output was:
+0
+CMakeCCompilerId.c
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/src/vcpkg/buildtrees/dlfcn-win32/x64-windows-dbg/CMakeFiles/3.25.1/CompilerIdC/CMakeCCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/src/vcpkg/buildtrees/dlfcn-win32/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uk2r4c
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_066da && [1/2] Building C object CMakeFiles\cmTC_066da.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_066da.exe
+
+
+

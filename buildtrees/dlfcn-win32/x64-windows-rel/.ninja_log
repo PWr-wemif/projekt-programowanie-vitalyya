@@ -1,0 +1,5 @@
+# ninja log v5
+4	350	7080503038220386	src/CMakeFiles/dl.dir/dlfcn.c.obj	22e80e4c6a5097e7
+351	471	7080503039414674	bin/dl.dll	3b93a3544b24b51
+351	471	7080503039414674	lib/dl.lib	3b93a3544b24b51
+472	509	0	CMakeFiles/install.util	fd9b1604d9d550bd

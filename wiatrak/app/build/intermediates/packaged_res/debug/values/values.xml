@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hours_array">
+        
+        <item>7</item>
+        <item>8</item>
+        
+    </string-array>
+    <string-array name="pairs_time_array">
+        <item>7:30 - 9:00</item>
+        <item>9:15 - 11:00</item>
+        <item>11:15 - 13:00</item>
+        <item>13:15 - 15:00</item>
+        <item>15:15 - 17:00</item>
+        <item>17:05 - 18:45</item>
+        <item>18:55 - 20:35</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="dividerColor">#E0E0E0</color>
+    <color name="headerColor">#FFC107</color>
+    <color name="headerTextColor">#FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="rowBackgroundColor">#FFFFFF</color>
+    <color name="tableRowBackground1">#EFEFEF</color>
+    <color name="tableRowBackground2">#FFFFFF</color>
+    <color name="tableTextColor">#000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="textColor">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">wiatrak</string>
+    <string name="title_activity_add_lesson"/>
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        
+    </style>
+    <style name="Theme.Wiatrak" parent="Theme.AppCompat.Light.DarkActionBar"/>
+</resources>
