@@ -36,12 +36,12 @@ com.project.schedule.app-core-runtime-2.2.0-34 C:\Users\vetal\.gradle\caches\tra
 com.project.schedule.app-viewpager2-1.0.0-35 C:\Users\vetal\.gradle\caches\transforms-3\e398980428f61a3256fd523fd646555d\transformed\viewpager2-1.0.0\res
 com.project.schedule.app-lifecycle-livedata-core-2.6.1-36 C:\Users\vetal\.gradle\caches\transforms-3\f72ac822af179d94e6c7d227c4a40fc4\transformed\lifecycle-livedata-core-2.6.1\res
 com.project.schedule.app-lifecycle-livedata-2.6.1-37 C:\Users\vetal\.gradle\caches\transforms-3\ff26e2816cd7fcc2e74408f612903b1c\transformed\lifecycle-livedata-2.6.1\res
-com.project.schedule.app-res-38 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\build\generated\crashlytics\res\debug
-com.project.schedule.app-pngs-39 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\build\generated\res\pngs\debug
-com.project.schedule.app-res-40 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\build\generated\res\processDebugGoogleServices
-com.project.schedule.app-resValues-41 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\build\generated\res\resValues\debug
-com.project.schedule.app-packageDebugResources-42 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.project.schedule.app-packageDebugResources-43 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.project.schedule.app-merged_res-44 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\build\intermediates\merged_res\debug
-com.project.schedule.app-debug-45 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\src\debug\res
-com.project.schedule.app-main-46 C:\Users\vetal\Downloads\Telegram Desktop\sheduler-latest\latest\app\src\main\res
+com.project.schedule.app-res-38 C:\src\vcpkg\latest\app\build\generated\crashlytics\res\debug
+com.project.schedule.app-pngs-39 C:\src\vcpkg\latest\app\build\generated\res\pngs\debug
+com.project.schedule.app-res-40 C:\src\vcpkg\latest\app\build\generated\res\processDebugGoogleServices
+com.project.schedule.app-resValues-41 C:\src\vcpkg\latest\app\build\generated\res\resValues\debug
+com.project.schedule.app-packageDebugResources-42 C:\src\vcpkg\latest\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.project.schedule.app-packageDebugResources-43 C:\src\vcpkg\latest\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.project.schedule.app-merged_res-44 C:\src\vcpkg\latest\app\build\intermediates\merged_res\debug
+com.project.schedule.app-debug-45 C:\src\vcpkg\latest\app\src\debug\res
+com.project.schedule.app-main-46 C:\src\vcpkg\latest\app\src\main\res
