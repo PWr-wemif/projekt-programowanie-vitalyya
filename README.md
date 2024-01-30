@@ -9,3 +9,6 @@ Edycja i usuwanie zajęć: Użytkownik ma możliwość edytowania szczegółów 
 Przeglądanie tygodni: Aplikacja umożliwia łatwe przewijanie i przeglądanie planu zajęć na kolejne tygodnie, co pozwala użytkownikom na szybkie planowanie i organizację czasu z wyprzedzeniem.
 
 Tryb offline: PlanZajęć umożliwia pracę bez dostępu do internetu, co jest przydatne w miejscach bez zasięgu lub przy oszczędzaniu danych
+
+
+Aplikacja będzie w języku Kotlin
