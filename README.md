@@ -1,12 +1,11 @@
-# projekt-programowanie-vitalyya
-1.1 Cel projektu: Opracowanie aplikacji na Androida, która zapewni studentom wygodne narzędzie do przeglądania i zarządzania planem zajęć.
+Nazwa aplikacji: "PlanZajęć" - Twój osobisty plan zajęć
 
-Analiza wymagań 2.1 Określenie wymagań funkcjonalnych: Opis funkcji, które powinny być dostępne w aplikacji, takich jak dodawanie planu lekcji, przeglądanie planu lekcji, przypomnienia o zajęciach itp. 2.2 Określenie wymagań niefunkcjonalnych: Ustalenie responsywności aplikacji, jej interfejsu, bezpieczeństwa itp.
+Funkcje aplikacji:
 
-Projektowanie 3.1 Rozwój interfejsu: Tworzenie projektu interfejsu użytkownika dla aplikacji, z uwzględnieniem użyteczności. 3.2 Tworzenie bazy danych: Tworzenie bazy danych do przechowywania harmonogramów zajęć i innych informacji.
+Dodawanie zajęć: Możliwość dodawania zajęć do planu na konkretne dni, z opcją oznaczania zajęć jako odbywających się w tygodniach parzystych lub nieparzystych. Ułatwia to planowanie w systemie akademickim, gdzie zajęcia mogą się różnić w zależności od tygodnia.
 
-Wdrożenie. 4.1 Rozwój aplikacji na Androida: Pisanie kodu dla funkcjonalności aplikacji. 4.2 Integracja z bazą danych: Połączenie aplikacji z bazą danych w celu przechowywania i pobierania informacji.
+Edycja i usuwanie zajęć: Użytkownik ma możliwość edytowania szczegółów dotyczących każdego zajęcia, jak również ich usuwania z planu, co zapewnia elastyczność i możliwość dostosowania planu do zmieniających się potrzeb.
 
-Testowanie 5.1 Uruchamianie testów: Wykonywanie różnego rodzaju testów w celu sprawdzenia poprawności działania aplikacji, identyfikacji i naprawy błędów.
+Przeglądanie tygodni: Aplikacja umożliwia łatwe przewijanie i przeglądanie planu zajęć na kolejne tygodnie, co pozwala użytkownikom na szybkie planowanie i organizację czasu z wyprzedzeniem.
 
-Projekt zostanie opracowany przy użyciu języka programowania Kotlin, który jest popularny do tworzenia aplikacji na platformę Android.
+Tryb offline: PlanZajęć umożliwia pracę bez dostępu do internetu, co jest przydatne w miejscach bez zasięgu lub przy oszczędzaniu danych
