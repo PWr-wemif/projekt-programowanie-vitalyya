@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ChangeLessonFragment">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.8"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/back_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/edit_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8" >
+
+
+    <TextView
+        android:id="@+id/head_change"
+        style="@style/EditStyleHead"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/back_field"
+        app:layout_constraintStart_toStartOf="@id/back_field"
+        app:layout_constraintTop_toTopOf="@id/back_field" />
+
+        <TextView
+            android:id="@+id/day_week_label"
+            style="@style/EditStyleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/day_week_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/even_week_label"
+            app:layout_constraintTop_toBottomOf="@id/head_change" />
+
+
+        <Spinner
+            android:id="@+id/day_week_input"
+            style="@style/EditStyleInput"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+            app:layout_constraintStart_toStartOf="@id/day_week_label"
+            app:layout_constraintEnd_toEndOf="@id/day_week_label"
+            app:layout_constraintTop_toBottomOf="@id/day_week_label" />
+
+
+
+        <TextView
+            android:id="@+id/even_week_label"
+            style="@style/EditStyleText"
+            android:layout_marginStart="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/even_week_label"
+            app:layout_constraintStart_toEndOf="@id/day_week_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/day_week_label" />
+
+
+        <Spinner
+            android:id="@+id/even_week_input"
+            style="@style/EditStyleInput"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+            app:layout_constraintStart_toStartOf="@id/even_week_label"
+            app:layout_constraintEnd_toEndOf="@id/even_week_label"
+            app:layout_constraintTop_toTopOf="@id/day_week_input" />
+
+
+
+    <TextView
+        android:id="@+id/time_start_label"
+        style="@style/EditStyleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/time_start_label"
+        app:layout_constraintEnd_toStartOf="@id/time_end_label"
+        app:layout_constraintStart_toStartOf="@id/back_field"
+        app:layout_constraintTop_toBottomOf="@id/day_week_input" />
+
+    <EditText
+        android:id="@+id/start_hours_input"
+        style="@style/EditStyleInput"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:text="08"
+        app:layout_constraintEnd_toStartOf="@id/start_mins_input"
+        app:layout_constraintStart_toStartOf="@id/time_start_label"
+        app:layout_constraintTop_toBottomOf="@id/time_start_label" />
+
+    <TextView
+        android:id="@+id/start_hours_label"
+        style="@style/EditStyleSign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hours_label"
+        app:layout_constraintEnd_toEndOf="@id/start_hours_input"
+        app:layout_constraintStart_toStartOf="@id/start_hours_input"
+        app:layout_constraintTop_toBottomOf="@id/start_hours_input" />
+
+
+    <EditText
+        android:id="@+id/start_mins_input"
+        style="@style/EditStyleInput"
+        android:inputType="numberDecimal"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="00"
+        app:layout_constraintEnd_toEndOf="@id/time_start_label"
+        app:layout_constraintStart_toEndOf="@id/start_hours_input"
+        app:layout_constraintTop_toTopOf="@id/start_hours_input" />
+
+    <TextView
+        android:id="@+id/start_mins_label"
+        style="@style/EditStyleSign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mins_label"
+        app:layout_constraintEnd_toEndOf="@id/start_mins_input"
+        app:layout_constraintStart_toStartOf="@id/start_mins_input"
+        app:layout_constraintTop_toBottomOf="@id/start_mins_input" />
+
+
+    <TextView
+        android:id="@+id/time_end_label"
+        style="@style/EditStyleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/time_fin_label"
+        app:layout_constraintEnd_toEndOf="@id/back_field"
+        app:layout_constraintStart_toEndOf="@id/time_start_label"
+        app:layout_constraintTop_toTopOf="@id/time_start_label" />
+
+    <EditText
+        android:id="@+id/end_hours_input"
+        style="@style/EditStyleInput"
+        android:inputType="numberDecimal"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="08"
+        app:layout_constraintEnd_toStartOf="@id/end_mins_input"
+        app:layout_constraintStart_toStartOf="@id/time_end_label"
+        app:layout_constraintTop_toBottomOf="@id/time_end_label" />
+
+    <TextView
+        android:id="@+id/end_hours_label"
+        style="@style/EditStyleSign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hours_label"
+        app:layout_constraintEnd_toEndOf="@id/end_hours_input"
+        app:layout_constraintStart_toStartOf="@id/end_hours_input"
+        app:layout_constraintTop_toBottomOf="@id/end_hours_input" />
+
+
+    <EditText
+        android:id="@+id/end_mins_input"
+        style="@style/EditStyleInput"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="00"
+        app:layout_constraintEnd_toEndOf="@id/time_end_label"
+        app:layout_constraintStart_toEndOf="@id/end_hours_input"
+        app:layout_constraintTop_toTopOf="@id/end_hours_input" />
+
+    <TextView
+        android:id="@+id/end_mins_label"
+        style="@style/EditStyleSign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mins_label"
+        app:layout_constraintEnd_toEndOf="@id/end_mins_input"
+        app:layout_constraintStart_toStartOf="@id/end_mins_input"
+        app:layout_constraintTop_toBottomOf="@id/end_mins_input" />
+
+
+    <TextView
+        android:id="@+id/lesson_label"
+        style="@style/EditStyleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/lesson_name_label"
+        app:layout_constraintEnd_toEndOf="@id/back_field"
+        app:layout_constraintStart_toStartOf="@id/back_field"
+        app:layout_constraintTop_toBottomOf="@id/end_hours_label" />
+
+    <EditText
+        android:id="@+id/lesson_name_input"
+        style="@style/EditStyleInput"
+        android:layout_width="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:hint="@string/lesson_hint"
+        app:layout_constraintEnd_toEndOf="@id/back_field"
+        app:layout_constraintStart_toStartOf="@id/back_field"
+        app:layout_constraintTop_toBottomOf="@id/lesson_label" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id ="@+id/error_msg_create"
+            style = "@style/EditStyleError"
+            tools:text = "@string/errorMsgEdit"
+            app:layout_constraintEnd_toEndOf="@id/back_field"
+            app:layout_constraintStart_toStartOf="@id/back_field"
+            app:layout_constraintTop_toBottomOf="@id/lesson_name_input"/>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id = "@+id/edit_button"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@id/cancel_button"
+        app:layout_constraintStart_toStartOf="@id/back_field"
+        app:layout_constraintTop_toBottomOf="@id/error_msg_create"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id = "@+id/cancel_button"
+        android:layout_marginStart="30dp"
+        android:text ="@string/cancel"
+        app:layout_constraintTop_toTopOf="@id/edit_button"
+        app:layout_constraintStart_toEndOf="@id/edit_button"
+        app:layout_constraintEnd_toEndOf="@id/back_field"
+        app:layout_constraintTop_toBottomOf="@id/error_msg_create"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

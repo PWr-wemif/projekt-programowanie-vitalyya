@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HourView">
+        <attr name="hourTime" format="string"/>
+        <attr name="hourInt" format="integer"/>
+    </declare-styleable>
+</resources>

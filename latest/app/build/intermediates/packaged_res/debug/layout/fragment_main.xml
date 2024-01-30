@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context=".fragments.MainFragment">
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/week_tv"
+        app:layout_constraintBottom_toBottomOf="@id/week_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/previous_label"
+        android:src="@drawable/array_left"
+        android:id = "@+id/previous_bt"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        style = "@style/TabStyle"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id = "@+id/previous_label"
+        android:text = "@string/previous_label"
+        style="@style/TabStyle"
+        android:paddingStart="5dp"
+        app:layout_constraintTop_toTopOf="@id/week_tv"
+        app:layout_constraintBottom_toBottomOf="@id/week_tv"
+        app:layout_constraintStart_toEndOf="@id/previous_bt"
+        app:layout_constraintEnd_toStartOf="@id/week_tv"
+        />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id = "@+id/week_tv"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintStart_toEndOf="@id/previous_label"
+        app:layout_constraintEnd_toStartOf="@id/next_label"
+        app:layout_constraintTop_toTopOf="parent"
+        style = "@style/TabStyle"
+        app:layout_constraintWidth_percent="0.6"
+            />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id = "@+id/next_label"
+        android:text = "@string/next_label"
+        style="@style/TabStyle"
+        android:paddingEnd="5dp"
+        app:layout_constraintTop_toTopOf="@id/week_tv"
+        app:layout_constraintBottom_toBottomOf="@id/week_tv"
+        app:layout_constraintStart_toEndOf="@id/week_tv"
+        app:layout_constraintEnd_toStartOf="@id/next_bt"
+        />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id = "@+id/next_bt"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="@id/week_tv"
+        app:layout_constraintBottom_toBottomOf="@id/week_tv"
+        app:layout_constraintStart_toEndOf="@id/next_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/array_right"
+        android:background="@color/white"
+        style = "@style/TabStyle"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id = "@+id/tab_block"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/week_tv">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id = "@+id/tab_monday"
+            android:layout_weight="1"
+            android:layout_marginEnd="1dp"
+            android:text = "@string/tab_monday"
+            style = "@style/TabStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id = "@+id/tab_tuesday"
+            android:layout_weight="1"
+            android:layout_marginEnd="1dp"
+            android:text = "@string/tab_tuesday"
+            style = "@style/TabStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id = "@+id/tab_wednesday"
+            android:layout_weight="1"
+            android:layout_marginEnd="1dp"
+            android:text = "@string/tab_wednesdey"
+            style = "@style/TabStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id = "@+id/tab_thursday"
+            android:layout_weight="1"
+            android:layout_marginEnd="1dp"
+            android:text = "@string/tab_thursday"
+            style = "@style/TabStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id = "@+id/tab_friday"
+            android:layout_weight="1"
+            android:text = "@string/tab_friday"
+            style = "@style/TabStyle"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id = "@+id/day_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tab_block"
+        app:layout_constraintBottom_toTopOf="@id/bottom_block"
+        android:orientation="horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id = "@+id/bottom_block"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        style="@style/TabStyle"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+       >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/add_lesson"
+            android:text = "@string/create"/>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/hour_8"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="08:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+           />
+
+        <TextView
+            android:id="@+id/line_v8"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_8"
+            app:layout_constraintStart_toEndOf="@id/hour_8"
+            app:layout_constraintTop_toTopOf="@id/hour_8" />
+
+
+        <TextView
+            android:id="@+id/hour_8_015"
+            android:layout_width="2000dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_8_1530"
+            app:layout_constraintStart_toEndOf="@id/hour_8"
+            app:layout_constraintTop_toTopOf="@id/hour_8" />
+
+        <TextView
+            android:id="@+id/line_g81"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_8"
+            app:layout_constraintTop_toBottomOf="@id/hour_8_015" />
+
+        <TextView
+            android:id="@+id/hour_8_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_8_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_8"
+            app:layout_constraintTop_toBottomOf="@id/hour_8_015" />
+
+        <TextView
+            android:id="@+id/line_g82"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_8"
+            app:layout_constraintTop_toBottomOf="@id/hour_8_1530" />
+
+        <TextView
+            android:id="@+id/hour_8_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_8_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_8"
+            app:layout_constraintTop_toBottomOf="@id/hour_8_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g83"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_8"
+            app:layout_constraintTop_toBottomOf="@id/hour_8_3045" />
+
+        <TextView
+            android:id="@+id/hour_8_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_8"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_8"
+            app:layout_constraintTop_toBottomOf="@id/hour_8_3045" />
+
+        <TextView
+            android:id="@+id/line_g8done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_8_4560" />
+
+
+        <TextView
+            android:id="@+id/hour_9"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="09:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g8done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v9"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_9"
+            app:layout_constraintStart_toEndOf="@id/hour_9"
+            app:layout_constraintTop_toTopOf="@id/hour_9" />
+
+
+        <TextView
+            android:id="@+id/hour_9_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_9_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_9"
+            app:layout_constraintTop_toTopOf="@id/hour_9" />
+
+        <TextView
+            android:id="@+id/line_g91"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_9"
+            app:layout_constraintTop_toBottomOf="@id/hour_9_015" />
+
+        <TextView
+            android:id="@+id/hour_9_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_9_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_9"
+            app:layout_constraintTop_toBottomOf="@id/hour_9_015" />
+
+        <TextView
+            android:id="@+id/line_g92"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_9"
+            app:layout_constraintTop_toBottomOf="@id/hour_9_1530" />
+
+        <TextView
+            android:id="@+id/hour_9_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_9_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_9"
+            app:layout_constraintTop_toBottomOf="@id/hour_9_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g93"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_9"
+            app:layout_constraintTop_toBottomOf="@id/hour_9_3045" />
+
+        <TextView
+            android:id="@+id/hour_9_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_9"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_9"
+            app:layout_constraintTop_toBottomOf="@id/hour_9_3045" />
+
+        <TextView
+            android:id="@+id/line_g9done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_9_4560" />
+
+        ---
+
+        <TextView
+            android:id="@+id/hour_10"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="10:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g9done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v10"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_10"
+            app:layout_constraintStart_toEndOf="@id/hour_10"
+            app:layout_constraintTop_toTopOf="@id/hour_10" />
+
+
+        <TextView
+            android:id="@+id/hour_10_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_10_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_10"
+            app:layout_constraintTop_toTopOf="@id/hour_10" />
+
+        <TextView
+            android:id="@+id/line_g101"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_10"
+            app:layout_constraintTop_toBottomOf="@id/hour_10_015" />
+
+        <TextView
+            android:id="@+id/hour_10_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_10_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_10"
+            app:layout_constraintTop_toBottomOf="@id/hour_10_015" />
+
+        <TextView
+            android:id="@+id/line_g102"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_10"
+            app:layout_constraintTop_toBottomOf="@id/hour_10_1530" />
+
+        <TextView
+            android:id="@+id/hour_10_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_10_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_10"
+            app:layout_constraintTop_toBottomOf="@id/hour_10_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g103"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_10"
+            app:layout_constraintTop_toBottomOf="@id/hour_10_3045" />
+
+        <TextView
+            android:id="@+id/hour_10_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_10"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_10"
+            app:layout_constraintTop_toBottomOf="@id/hour_10_3045" />
+
+        <TextView
+            android:id="@+id/line_g10done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_10_4560" />
+
+        ---
+
+        <TextView
+            android:id="@+id/hour_11"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="11:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g10done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v11"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_11"
+            app:layout_constraintStart_toEndOf="@id/hour_11"
+            app:layout_constraintTop_toTopOf="@id/hour_11" />
+
+
+        <TextView
+            android:id="@+id/hour_11_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_11_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_11"
+            app:layout_constraintTop_toTopOf="@id/hour_11" />
+
+        <TextView
+            android:id="@+id/line_g111"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_11"
+            app:layout_constraintTop_toBottomOf="@id/hour_11_015" />
+
+        <TextView
+            android:id="@+id/hour_11_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_11_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_11"
+            app:layout_constraintTop_toBottomOf="@id/hour_11_015" />
+
+        <TextView
+            android:id="@+id/line_g112"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_11"
+            app:layout_constraintTop_toBottomOf="@id/hour_11_1530" />
+
+        <TextView
+            android:id="@+id/hour_11_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_11_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_11"
+            app:layout_constraintTop_toBottomOf="@id/hour_11_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g113"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_11"
+            app:layout_constraintTop_toBottomOf="@id/hour_11_3045" />
+
+        <TextView
+            android:id="@+id/hour_11_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_11"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_11"
+            app:layout_constraintTop_toBottomOf="@id/hour_11_3045" />
+
+        <TextView
+            android:id="@+id/line_g11done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_11_4560" />
+
+        ---
+
+        <TextView
+            android:id="@+id/hour_12"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="12:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g11done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v121"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_12"
+            app:layout_constraintStart_toEndOf="@id/hour_12"
+            app:layout_constraintTop_toTopOf="@id/hour_12" />
+
+
+        <TextView
+            android:id="@+id/hour_12_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_12_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_12"
+            app:layout_constraintTop_toTopOf="@id/hour_12" />
+
+        <TextView
+            android:id="@+id/line_g121"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_12"
+            app:layout_constraintTop_toBottomOf="@id/hour_12_015" />
+
+        <TextView
+            android:id="@+id/hour_12_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_12_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_12"
+            app:layout_constraintTop_toBottomOf="@id/hour_12_015" />
+
+        <TextView
+            android:id="@+id/line_g122"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_12"
+            app:layout_constraintTop_toBottomOf="@id/hour_12_1530" />
+
+        <TextView
+            android:id="@+id/hour_12_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_12_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_12"
+            app:layout_constraintTop_toBottomOf="@id/hour_12_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g123"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_12"
+            app:layout_constraintTop_toBottomOf="@id/hour_12_3045" />
+
+        <TextView
+            android:id="@+id/hour_12_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_12"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_12"
+            app:layout_constraintTop_toBottomOf="@id/hour_12_3045" />
+
+        <TextView
+            android:id="@+id/line_g12done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_12_4560" />
+        ---
+
+        <TextView
+            android:id="@+id/hour_13"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="13:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g12done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v131"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_13"
+            app:layout_constraintStart_toEndOf="@id/hour_13"
+            app:layout_constraintTop_toTopOf="@id/hour_13" />
+
+
+        <TextView
+            android:id="@+id/hour_13_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_13_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_13"
+            app:layout_constraintTop_toTopOf="@id/hour_13" />
+
+        <TextView
+            android:id="@+id/line_g131"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_13"
+            app:layout_constraintTop_toBottomOf="@id/hour_13_015" />
+
+        <TextView
+            android:id="@+id/hour_13_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_13_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_13"
+            app:layout_constraintTop_toBottomOf="@id/hour_13_015" />
+
+        <TextView
+            android:id="@+id/line_g132"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_13"
+            app:layout_constraintTop_toBottomOf="@id/hour_13_1530" />
+
+        <TextView
+            android:id="@+id/hour_13_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_13_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_13"
+            app:layout_constraintTop_toBottomOf="@id/hour_13_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g133"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_13"
+            app:layout_constraintTop_toBottomOf="@id/hour_13_3045" />
+
+        <TextView
+            android:id="@+id/hour_13_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_13"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_13"
+            app:layout_constraintTop_toBottomOf="@id/hour_13_3045" />
+
+        <TextView
+            android:id="@+id/line_g13done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_13_4560" />
+        ---
+
+        <TextView
+            android:id="@+id/hour_14"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="14:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g13done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v141"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_14"
+            app:layout_constraintStart_toEndOf="@id/hour_14"
+            app:layout_constraintTop_toTopOf="@id/hour_14" />
+
+
+        <TextView
+            android:id="@+id/hour_14_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_14_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_14"
+            app:layout_constraintTop_toTopOf="@id/hour_14" />
+
+        <TextView
+            android:id="@+id/line_g141"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_14"
+            app:layout_constraintTop_toBottomOf="@id/hour_14_015" />
+
+        <TextView
+            android:id="@+id/hour_14_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_14_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_14"
+            app:layout_constraintTop_toBottomOf="@id/hour_14_015" />
+
+        <TextView
+            android:id="@+id/line_g142"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_14"
+            app:layout_constraintTop_toBottomOf="@id/hour_14_1530" />
+
+        <TextView
+            android:id="@+id/hour_14_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_14_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_14"
+            app:layout_constraintTop_toBottomOf="@id/hour_14_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g143"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_14"
+            app:layout_constraintTop_toBottomOf="@id/hour_14_3045" />
+
+        <TextView
+            android:id="@+id/hour_14_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_14"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_14"
+            app:layout_constraintTop_toBottomOf="@id/hour_14_3045" />
+
+        <TextView
+            android:id="@+id/line_g14done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_14_4560" />
+
+
+
+
+        <TextView
+            android:id="@+id/hour_15"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="15:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g14done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v15"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_15"
+            app:layout_constraintStart_toEndOf="@id/hour_15"
+            app:layout_constraintTop_toTopOf="@id/hour_15" />
+
+
+        <TextView
+            android:id="@+id/hour_15_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_15_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_15"
+            app:layout_constraintTop_toTopOf="@id/hour_15" />
+
+        <TextView
+            android:id="@+id/line_g151"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_15"
+            app:layout_constraintTop_toBottomOf="@id/hour_15_015" />
+
+        <TextView
+            android:id="@+id/hour_15_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_15_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_15"
+            app:layout_constraintTop_toBottomOf="@id/hour_15_015" />
+
+        <TextView
+            android:id="@+id/line_g152"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_15"
+            app:layout_constraintTop_toBottomOf="@id/hour_15_1530" />
+
+        <TextView
+            android:id="@+id/hour_15_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_15_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_15"
+            app:layout_constraintTop_toBottomOf="@id/hour_15_1530" />
+
+        <TextView
+            android:id="@+id/line_g153"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_15"
+            app:layout_constraintTop_toBottomOf="@id/hour_15_3045" />
+
+        <TextView
+            android:id="@+id/hour_15_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_15"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_15"
+            app:layout_constraintTop_toBottomOf="@id/hour_15_3045" />
+
+        <TextView
+            android:id="@+id/line_g15done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_15_4560" />
+
+        ---
+
+        <TextView
+            android:id="@+id/hour_16"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="16:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g15done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v161"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_16"
+            app:layout_constraintStart_toEndOf="@id/hour_16"
+            app:layout_constraintTop_toTopOf="@id/hour_16" />
+
+
+        <TextView
+            android:id="@+id/hour_16_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_16_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_16"
+            app:layout_constraintTop_toTopOf="@id/hour_16" />
+
+        <TextView
+            android:id="@+id/line_g161"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_16"
+            app:layout_constraintTop_toBottomOf="@id/hour_16_015" />
+
+        <TextView
+            android:id="@+id/hour_16_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_16_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_16"
+            app:layout_constraintTop_toBottomOf="@id/hour_16_015" />
+
+        <TextView
+            android:id="@+id/line_g162"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_16"
+            app:layout_constraintTop_toBottomOf="@id/hour_16_1530" />
+
+        <TextView
+            android:id="@+id/hour_16_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_16_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_16"
+            app:layout_constraintTop_toBottomOf="@id/hour_16_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g163"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_16"
+            app:layout_constraintTop_toBottomOf="@id/hour_16_3045" />
+
+        <TextView
+            android:id="@+id/hour_16_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_16"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_16"
+            app:layout_constraintTop_toBottomOf="@id/hour_16_3045" />
+
+        <TextView
+            android:id="@+id/line_g16done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_16_4560" />
+        ---
+
+        <TextView
+            android:id="@+id/hour_17"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="17:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g16done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v171"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_17"
+            app:layout_constraintStart_toEndOf="@id/hour_17"
+            app:layout_constraintTop_toTopOf="@id/hour_17" />
+
+
+        <TextView
+            android:id="@+id/hour_17_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_17_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_17"
+            app:layout_constraintTop_toTopOf="@id/hour_17" />
+
+        <TextView
+            android:id="@+id/line_g171"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_17"
+            app:layout_constraintTop_toBottomOf="@id/hour_17_015" />
+
+        <TextView
+            android:id="@+id/hour_17_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_17_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_17"
+            app:layout_constraintTop_toBottomOf="@id/hour_17_015" />
+
+        <TextView
+            android:id="@+id/line_g172"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_17"
+            app:layout_constraintTop_toBottomOf="@id/hour_17_1530" />
+
+        <TextView
+            android:id="@+id/hour_17_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_17_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_17"
+            app:layout_constraintTop_toBottomOf="@id/hour_17_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g173"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_17"
+            app:layout_constraintTop_toBottomOf="@id/hour_17_3045" />
+
+        <TextView
+            android:id="@+id/hour_17_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_17"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_17"
+            app:layout_constraintTop_toBottomOf="@id/hour_17_3045" />
+
+        <TextView
+            android:id="@+id/line_g17done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_17_4560" />
+        ---
+
+        <TextView
+            android:id="@+id/hour_18"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="18:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g17done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v181"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_18"
+            app:layout_constraintStart_toEndOf="@id/hour_18"
+            app:layout_constraintTop_toTopOf="@id/hour_18" />
+
+
+        <TextView
+            android:id="@+id/hour_18_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_18_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_18"
+            app:layout_constraintTop_toTopOf="@id/hour_18" />
+
+        <TextView
+            android:id="@+id/line_g181"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_18"
+            app:layout_constraintTop_toBottomOf="@id/hour_18_015" />
+
+        <TextView
+            android:id="@+id/hour_18_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_18_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_18"
+            app:layout_constraintTop_toBottomOf="@id/hour_18_015" />
+
+        <TextView
+            android:id="@+id/line_g182"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_18"
+            app:layout_constraintTop_toBottomOf="@id/hour_18_1530" />
+
+        <TextView
+            android:id="@+id/hour_18_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_18_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_18"
+            app:layout_constraintTop_toBottomOf="@id/hour_18_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g183"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_18"
+            app:layout_constraintTop_toBottomOf="@id/hour_18_3045" />
+
+        <TextView
+            android:id="@+id/hour_18_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_18"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_18"
+            app:layout_constraintTop_toBottomOf="@id/hour_18_3045" />
+
+        <TextView
+            android:id="@+id/line_g18done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_18_4560" />
+
+        <TextView
+            android:id="@+id/hour_19"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="19:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g18done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v191"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_19"
+            app:layout_constraintStart_toEndOf="@id/hour_19"
+            app:layout_constraintTop_toTopOf="@id/hour_19" />
+
+
+        <TextView
+            android:id="@+id/hour_19_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_19_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_19"
+            app:layout_constraintTop_toTopOf="@id/hour_19" />
+
+        <TextView
+            android:id="@+id/line_g191"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_19"
+            app:layout_constraintTop_toBottomOf="@id/hour_19_015" />
+
+        <TextView
+            android:id="@+id/hour_19_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_19_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_19"
+            app:layout_constraintTop_toBottomOf="@id/hour_19_015" />
+
+        <TextView
+            android:id="@+id/line_g192"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_19"
+            app:layout_constraintTop_toBottomOf="@id/hour_19_1530" />
+
+        <TextView
+            android:id="@+id/hour_19_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_19_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_19"
+            app:layout_constraintTop_toBottomOf="@id/hour_19_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g193"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_19"
+            app:layout_constraintTop_toBottomOf="@id/hour_19_3045" />
+
+        <TextView
+            android:id="@+id/hour_19_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_19"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_19"
+            app:layout_constraintTop_toBottomOf="@id/hour_19_3045" />
+
+        <TextView
+            android:id="@+id/line_g19done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_19_4560" />
+        ---
+
+        <TextView
+            android:id="@+id/hour_20"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="20:00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line_g19done"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <TextView
+            android:id="@+id/line_v201"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/hour_20"
+            app:layout_constraintStart_toEndOf="@id/hour_20"
+            app:layout_constraintTop_toTopOf="@id/hour_20" />
+
+
+        <TextView
+            android:id="@+id/hour_20_015"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_20_1530"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_20"
+            app:layout_constraintTop_toTopOf="@id/hour_20" />
+
+        <TextView
+            android:id="@+id/line_g201"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_20"
+            app:layout_constraintTop_toBottomOf="@id/hour_20_015" />
+
+        <TextView
+            android:id="@+id/hour_20_1530"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_20_3045"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_20"
+            app:layout_constraintTop_toBottomOf="@id/hour_20_015" />
+
+        <TextView
+            android:id="@+id/line_g202"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_20"
+            app:layout_constraintTop_toBottomOf="@id/hour_20_1530" />
+
+        <TextView
+            android:id="@+id/hour_20_3045"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/hour_20_4560"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_20"
+            app:layout_constraintTop_toBottomOf="@id/hour_20_1530"
+
+            />
+
+        <TextView
+            android:id="@+id/line_g203"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_20"
+            app:layout_constraintTop_toBottomOf="@id/hour_20_3045" />
+
+        <TextView
+            android:id="@+id/hour_20_4560"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@id/hour_20"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toEndOf="@id/hour_20"
+            app:layout_constraintTop_toBottomOf="@id/hour_20_3045" />
+
+        <TextView
+            android:id="@+id/line_g20done"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/hour_8_015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hour_20_4560" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>
+

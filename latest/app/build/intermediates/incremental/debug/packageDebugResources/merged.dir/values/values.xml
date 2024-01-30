@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="days">
+        <item>@string/tab_monday</item>
+        <item>@string/tab_tuesday</item>
+        <item>@string/tab_wednesdey</item>
+        <item>@string/tab_thursday</item>
+        <item>@string/tab_friday</item>
+        <item>@string/tab_saturday</item>
+        <item>@string/tab_sunday</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>false</item>
+        <item>true</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="lesson">#FCE09B</color>
+    <color name="tab_active">#186F65</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ScheduleApp</string>
+    <string name="cancel">Cancel</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="create">Create Lesson</string>
+    <string name="day_week_label">Day of Week</string>
+    <string name="edit">Edit Lesson</string>
+    <string name="errorMsgEdit">Day of a week must be between 1..6, even 0..1, where 1 is even week, hours in 8..20, minutes in 0..59, lesson name not empty</string>
+    <string name="even_week_label">Even Week</string>
+    <string name="gcm_defaultSenderId" translatable="false">834833799166</string>
+    <string name="google_api_key" translatable="false">AIzaSyDxjHEkpxzZ6xQNGRdmPmvEDClMgGznfSM</string>
+    <string name="google_app_id" translatable="false">1:834833799166:android:a672f2a1dd6d53a490d2af</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDxjHEkpxzZ6xQNGRdmPmvEDClMgGznfSM</string>
+    <string name="google_storage_bucket" translatable="false">scheduler-ccc25.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hours_label">Hour</string>
+    <string name="lesson_hint">lesson name</string>
+    <string name="lesson_name_label">Lesson name</string>
+    <string name="message_delete">Are you sure want to delete lesson?</string>
+    <string name="mins_label">Mins</string>
+    <string name="next_label">next</string>
+    <string name="ok">Ok</string>
+    <string name="previous_label">previous</string>
+    <string name="project_id" translatable="false">scheduler-ccc25</string>
+    <string name="tab_friday">Friday</string>
+    <string name="tab_monday">Monday</string>
+    <string name="tab_saturday">Saturday</string>
+    <string name="tab_sunday">Sunday</string>
+    <string name="tab_thursday">Thursday</string>
+    <string name="tab_tuesday">Tuesday</string>
+    <string name="tab_wednesdey">Wednesday</string>
+    <string name="time_fin_label">Fin time</string>
+    <string name="time_start_label">Start time</string>
+    <style name="Base.Theme.ScheduleApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="EditStyleError" parent="Base.Theme.ScheduleApp">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="EditStyleHead" parent="Base.Theme.ScheduleApp">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="EditStyleInput" parent="Base.Theme.ScheduleApp">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="EditStyleSign" parent="Base.Theme.ScheduleApp">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="EditStyleText" parent="Base.Theme.ScheduleApp">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="LessonStyle" parent="Base.Theme.ScheduleApp">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TabStyle" parent="Base.Theme.ScheduleApp">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_deactive</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.ScheduleApp" parent="Base.Theme.ScheduleApp"/>
+    <style name="TimeStyle" parent="Base.Theme.ScheduleApp">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <declare-styleable name="HourView">
+        <attr format="string" name="hourTime"/>
+        <attr format="integer" name="hourInt"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "834833799166",
+    "project_id": "scheduler-ccc25",
+    "storage_bucket": "scheduler-ccc25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834833799166:android:a672f2a1dd6d53a490d2af",
+        "android_client_info": {
+          "package_name": "com.project.schedule"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxjHEkpxzZ6xQNGRdmPmvEDClMgGznfSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

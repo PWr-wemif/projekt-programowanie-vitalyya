@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ScheduleApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tab_monday">Monday</string>
+    <string name="tab_tuesday">Tuesday</string>
+    <string name="tab_wednesdey">Wednesday</string>
+    <string name="tab_thursday">Thursday</string>
+    <string name="tab_friday">Friday</string>
+    <string name="tab_saturday">Saturday</string>
+    <string name="tab_sunday">Sunday</string>
+
+    <string-array name="days">
+        <item>@string/tab_monday</item>
+        <item>@string/tab_tuesday</item>
+        <item>@string/tab_wednesdey</item>
+        <item>@string/tab_thursday</item>
+        <item>@string/tab_friday</item>
+        <item>@string/tab_saturday</item>
+        <item>@string/tab_sunday</item>
+    </string-array>
+
+    <string-array name="weeks">
+        <item>false</item>
+        <item>true</item>
+    </string-array>
+
+    <string name="create">Create Lesson</string>
+    <string name="edit">Edit Lesson</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+
+    <string name="previous_label">previous</string>
+    <string name="next_label">next</string>
+
+    <string name="message_delete">Are you sure want to delete lesson?</string>
+
+    <string name="day_week_label">Day of Week</string>
+    <string name="even_week_label">Even Week</string>
+
+    <string name="time_start_label">Start time</string>
+    <string name="time_fin_label">Fin time</string>
+    <string name="hours_label">Hour</string>
+    <string name="mins_label">Mins</string>
+
+    <string name="lesson_name_label">Lesson name</string>
+    <string name="lesson_hint">lesson name</string>
+
+    <string name="errorMsgEdit">Day of a week must be between 1..6, even 0..1, where 1 is even week, hours in 8..20, minutes in 0..59, lesson name not empty</string>
+
+
+
+</resources>
